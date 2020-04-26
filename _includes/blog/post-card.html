@@ -20,7 +20,7 @@
 
 {%- comment -%} Determine Post URL {%- endcomment -%}
 {%- if post.external_url -%}
-  {%- assign post_url = post.external_url target="_blank" -%}
+  {%- assign post_url = post.external_url | target="_blank" -%}
 {%- else -%}
   {%- assign post_url = post.url | relative_url -%}
 {%- endif -%}
