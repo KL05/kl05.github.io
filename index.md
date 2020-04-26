@@ -10,6 +10,8 @@ h1 {text-align: center;}
 <h1><a href="https://kl05.github.io/blog/">Artigos</a></h1>
 <br><br>
 <h1><a href="https://kl05.github.io/blog/tags">Tags</a></h1>
+<br><br>
+<h1><a href="https://github.com/kl05.github.io">GitHub</a></h1>
 
 </body>
 </html>
