@@ -16,7 +16,7 @@
   {% for post in site.posts %}
     {%- if post.tags contains tag -%}
       {%- if post.external_url -%}
-        {%- assign url = post.external_url | extlinks-%}
+        {%- assign url = post.external_url -%}
       {%- else -%}
         {%- assign url = post.url | relative_url -%}
       {%- endif -%}

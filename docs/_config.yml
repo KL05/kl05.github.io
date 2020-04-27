@@ -10,6 +10,7 @@ remote_theme        : YoussefRaafatNasry/portfolYOU
 ### Plugins ###
 plugins:
   - jemoji
+  - jekyll-target-blank
 
 extlinks:
    attributes: {rel: nofollow, target: _blank}
