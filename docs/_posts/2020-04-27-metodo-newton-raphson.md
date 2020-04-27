@@ -1,6 +1,6 @@
 ---
 title: Método de Newton-Raphson [Julia]
-tags: [Julia, Métodos, Implementação] #tag zero da função
+tags: [Implementação, Julia, Link Externo, Métodos]
 style: fill
 color: secondary
 description: Implementação em Julia do Método de Newton-Raphson.

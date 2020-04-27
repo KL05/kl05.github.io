@@ -1,14 +1,12 @@
 ---
 title: Learn React.js in 5 minutes
 tags: [React, JavaScript, Web Development]
+
 style: border
 color: primary
+
 description: A quick introduction to the popular JavaScript library.
 ---
-
-Source: [freecodecamp](https://medium.freecodecamp.org/learn-react-js-in-5-minutes-526472d292f4)
-
-This tutorial will give you a basic understanding of React.js by building a very simple application. I’ll leave out everything which I don’t think is core.
 
 ## The setup
 
@@ -34,16 +32,8 @@ When getting started with React, you should use the simplest setup possible: an 
 </html>
 ```
 
-We’ve also imported Babel, as React uses something called JSX to write markup. We’ll need to transform this JSX into plain JavaScript, so that the browser can understand it.
-
-There are more two things I want you to notice:
-
 1. The `<div>` with the id of `#root`. This is the entry point for our app. This is where our entire app will live.
 1. The `<script type="text/babel">` tag in the body. This is where we’ll write our React.js code.
-
-If you want to experiment with the code, check out this Scrimba playground.
-
-## Components
 
 Everything in React is a component, and these usually take the form of JavaScript classes. You create a component by extending upon the `React-Component` class. Let’s create a component called `Hello`.
 
@@ -78,19 +68,13 @@ The next step is to get our app to handle data.
 
 ## Handling data
 
-There are two types of data in React: props and state. The difference between the two is a bit tricky to understand in the beginning, so don’t worry if you find it a bit confusing. It’ll become easier once you start working with them.
-
 The key difference is that state is private and can be changed from within the component itself. Props are external, and not controlled by the component itself. It’s passed down from components higher up the hierarchy, who also control the data.
 
 {% include elements/highlight.html text="A component can change its internal state directly. It can not change its props directly." %}
 
-Let’s take a closer look at props first.
-
 ## Props
 
 Our `Hello` component is very static, and it renders out the same message regardless. A big part of React is reusability, meaning the ability to write a component once, and then reuse it in different use cases — for example, to display different messages.
-
-To achieve this type of reusability, we’ll add props. This is how you pass props to a component:
 
 ```javascript
 ReactDOM.render(
@@ -114,16 +98,6 @@ As a result, this is rendered on the screen:
 ![](https://cdn-images-1.medium.com/max/1000/1*M0-2Ct0K3SARZLSwIzgdJw.png)
 
 The reason we’re writing {this.props.message} with curly braces is because we need to tell the JSX that we want to add a JavaScript expression. This is called **escaping**.
-
-So now we have a reusable component which can render whatever message we want on the page. Woohoo!
-
-However, what if we want the component to be able to change its own data? Then we have to use state instead!
-
-## State
-
-The other way of storing data in React is in the component’s state. And unlike props — which can’t be changed directly by the component — the state can.
-
-So if you want the data in your app to change — for example based on user interactions — it must be stored in a component’s state somewhere in the app.
 
 ### Initializing state
 

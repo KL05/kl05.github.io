@@ -1,6 +1,6 @@
 ---
 title: Método do Ponto Fixo [Julia]
-tags: [Julia, Métodos, Implementação]
+tags: [Implementação, Julia, Link Externo, Métodos]
 style: fill
 color: secondary
 description: Implementação em Julia do Método do Ponto Fixo.
