@@ -11,6 +11,10 @@ remote_theme        : YoussefRaafatNasry/portfolYOU
 plugins:
   - jemoji
 
+extlinks:
+   attributes: {rel: nofollow, target: _blank}
+#   rel_exclude: ['host1.com', 'host2.net']
+
 ### Navbar Settings ###
 # nav_exclude:                                            # The following paths are excluded from navbar
 #  - pages/tags.html
