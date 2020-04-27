@@ -11,10 +11,6 @@ remote_theme        : YoussefRaafatNasry/portfolYOU
 plugins:
   - jemoji
 
-kramdown:
-  math_engine: mathjax
-
-
 ### Navbar Settings ###
 # nav_exclude:                                            # The following paths are excluded from navbar
 #  - pages/tags.html
