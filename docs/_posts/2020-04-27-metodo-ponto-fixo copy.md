@@ -22,7 +22,7 @@ Enquanto a condição de parada não for atingida, faça $k = k + 1$ e volte par
 ### Condição de Parada:
 O programa será finalizado:
 1. quando o número máximo de iterações for atingido ou 
-2. quando for obtido a aproximação desejada, isto é, $|x^{(k+1)}-x^{(k)}| < {\rm{tolerância}}$. Nesse caso, $x^{(k+1)}$ é o zero da função $f$.
+2. quando for obtido a aproximação desejada, isto é, $\|x^{(k+1)}-x^{(k)}\| < {\rm{tolerância}}$. Nesse caso, $x^{(k+1)}$ é o zero da função $f$.
 
 
 
