@@ -12,7 +12,8 @@ plugins:
   - jemoji
   - jekyll-target-blank
 
-
+target-blank:
+    css_class: ext-link
 
 ### Navbar Settings ###
 # nav_exclude:                                            # The following paths are excluded from navbar
