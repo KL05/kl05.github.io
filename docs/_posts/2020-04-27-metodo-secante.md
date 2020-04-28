@@ -6,7 +6,7 @@ color: secondary
 description: Implementação em Julia do Método da Secante.
 ---
 
-![Método da Secante](https://kl05.github.io/docs/img/Metodo_do_Ponto_Fixo.png)
+![Método da Secante](https://kl05.github.io/docs/img/Metodo_da_Secante.png)
 
 ## Implementação
 
