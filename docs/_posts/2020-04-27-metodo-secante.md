@@ -1,6 +1,6 @@
 ---
 title: Método da Secante [Julia]
-tags: [Implementação, Julia, Link Externo, Métodos] #reduzir o número de tag
+tags: [Implementação, Julia, Link Externo]
 style: fill
 color: secondary
 description: Implementação em Julia do Método da Secante.

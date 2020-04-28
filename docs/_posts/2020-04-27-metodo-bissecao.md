@@ -1,6 +1,6 @@
 ---
 title: Método da Bisseção [Julia]
-tags: [Implementação, Julia, Link Externo, Métodos]
+tags: [Implementação, Julia, Link Externo]
 style: fill
 color: secondary
 description: Implementação em Julia do Método da Bisseção.
