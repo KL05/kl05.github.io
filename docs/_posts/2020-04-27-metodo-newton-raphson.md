@@ -1,6 +1,6 @@
 ---
 title: Método de Newton-Raphson [Julia]
-tags: [Implementação, Julia]
+tags: [Implementação, Julia, Matemática]
 style: fill
 color: secondary
 description: Implementação em Julia do Método de Newton-Raphson.
